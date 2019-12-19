@@ -733,7 +733,7 @@ paths:
               schema:
                 $ref: ../common/models/error.v1.yaml
       operationId: get-accettazione-user
-      description: Torna la lista delle accettazioni inserite da un utente in data odierna.
+      description: Torna la lista delle accettazioni inserite da un utente in data odierna
       parameters:
         - schema:
             type: string
