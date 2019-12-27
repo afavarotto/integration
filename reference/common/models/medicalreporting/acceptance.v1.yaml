@@ -8,11 +8,7 @@ properties:
     format: date-time
   paziente:
     $ref: ./personlite.v1.yaml
-  idPrenotazione:
-    type: string
   idSede:
-    type: string
-  idOperatore:
     type: string
   listaPrestazioni:
     type: array
@@ -26,13 +22,18 @@ properties:
     type: string
   numero:
     type: string
+  listaPrenotazioni:
+    type: array
+    items:
+      type: object
+      properties:
+        idPrenotazione:
+          type: string
 required:
   - id
   - dataAccettazione
   - paziente
-  - idPrenotazione
   - idSede
-  - idOperatore
   - listaPrestazioni
   - codiceModalAccess
   - anno

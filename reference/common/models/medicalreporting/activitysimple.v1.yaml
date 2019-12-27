@@ -18,7 +18,10 @@ properties:
     type: string
   descrizione:
     type: string
+  idOperatore:
+    type: string
 required:
   - id
   - stato
   - descrizione
+  - idOperatore
