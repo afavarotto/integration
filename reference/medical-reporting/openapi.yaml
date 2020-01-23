@@ -83,10 +83,10 @@ paths:
               schema:
                 type: object
                 properties:
-                  IdReferto:
+                  idReferto:
                     type: string
                 required:
-                  - IdReferto
+                  - idReferto
         '400':
           description: Bad Request
           content:
