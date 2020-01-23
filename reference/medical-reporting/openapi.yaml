@@ -389,7 +389,7 @@ paths:
           description: 'Deve essere prente un prefisso "Bearer" che precede il token che viene tornato in login'
           required: true
       description: "metodo per trovare le accettazioni legate all'operatore per id dell'operatore."
-  '/prenotazioni/operatore/{id}':
+  '/prenotazione/operatore/{id}':
     parameters:
       - schema:
           type: string
