@@ -56,7 +56,7 @@ paths:
           name: Authentication
           description: 'Deve essere prente un prefisso "Bearer" che precede il token che viene tornato in login'
           required: true
-      description: metodo per cercare referti per id accettazione
+      description: 'metodo per cercare referti per id accettazione. Attenzione: Non viene ritornato i dati in base 64 del file. Per recuperare il singolo referto, effetturare la chiamata singola.'
   /referto:
     post:
       operationId: '9'
