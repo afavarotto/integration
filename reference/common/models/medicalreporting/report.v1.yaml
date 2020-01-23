@@ -20,6 +20,11 @@ properties:
         - idPrestazione
   indisponibile:
     type: boolean
+  stato:
+    type: string
+    enum:
+      - REFERTATO
+      - ANNULLATO
 required:
   - id
   - idAccettazione
